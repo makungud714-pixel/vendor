@@ -255,24 +255,3 @@ export default function LandingPage() {
     </div>
   );
 }
-                    </div>
-                </div>
-            </div>
-        </section>
-      </main>
-
-      {/* Footer */}
-      <footer className="border-t">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-6 py-6">
-          <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} vendors. All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <Link href="#" className="text-sm hover:text-primary transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-sm hover:text-primary transition-colors">Terms of Service</Link>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
